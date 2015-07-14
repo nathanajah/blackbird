@@ -1,0 +1,5 @@
+site_name: Blackbird API Documentation
+pages:
+    - [index.md, Welcome]
+theme: united
+repo_url: https://github.com/commitech/blackbird

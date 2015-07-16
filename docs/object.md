@@ -24,7 +24,7 @@ Represents each user in the community.
 
 `tracking` : String. Money tracking status. Either "treasurer", "comcen", or "none"
 
-`isduty` : Boolean. If true, then the user is allowed to have duty.
+`is_duty` : Boolean. If true, then the user is allowed to have duty.
 
 ## Duty
 
@@ -76,6 +76,6 @@ Represents a money tracking
 
 `index` : Integer. The index of the step. Starts from 1
 
-`treasurerstatus` : String. Either "pending", "completed", or "not required"
+`treasurer_status` : String. Either "pending", "completed", or "not required"
 
-`comcenstatus` : String. Either "pending", "completed", or "not required"
+`comcen_status` : String. Either "pending", "completed", or "not required"

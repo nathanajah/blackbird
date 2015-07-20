@@ -18,6 +18,8 @@ Represents each user in the community.
 
 `position` : String.
 
+`is_notification` : Boolean. If true, then the user is subscribed to notification.
+
 `status` : Boolean. If true, then the user is activated (allowed to login)
 
 `is_admin` : Boolean. If true, then the user have admin access panel.

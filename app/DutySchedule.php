@@ -4,7 +4,7 @@ namespace blackbird;
 
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class DutySchedule extends Model
 {
     public $timestamps = false;
 }

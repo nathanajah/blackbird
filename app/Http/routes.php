@@ -11,6 +11,7 @@
 |
 */
 
+Route::post('/user/add_user', 'UserController@addUser'); 
 Route::get('/', function () {
     return view('welcome');
 });
